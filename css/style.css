@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+.part-two hr{
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.about-two p, span{
+    display: inline;
+}
+
+.part-two{
+    background-color: aliceblue;
+}
+
+.education ul{
+    list-style: none;
+    font-size: 17px;
+}
+
+.skill img{
+    width: 85px;
+    height: 85px;
+}
+
+i{
+    color: rgb(13, 110, 253);
+}
+/* span{
+    text-align: end !important;
+} */
+
+
+@media screen and (max-width: 700px) {
+    .part-two{
+        padding: 2rem !important;
+    }
+
+    ul{
+        font-size: 14px !important;
+    }
+
+    .part-two h2{
+        width: 100% !important;
+    }
+
+    .about-two p, a, span{
+        font-size: 16px;
+    }
+
+    .about-two p {
+        margin-right: 0.5rem !important;
+    }
+
+    .fa-message {
+        margin-right: 0rem !important;
+    }
+}
